@@ -1,0 +1,136 @@
+body{
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  font-size: 17px;
+  
+}
+
+a{
+  text-decoration: none;
+}
+.main{
+  width: 100%;
+  height: 100%;
+  background-color: aqua;
+  margin-bottom: -95px;
+}
+
+.header{
+  background-color: rgb(85, 85, 231);
+  height: 60px;
+  width: 100%;
+}
+
+.logo{
+  width: 50px;
+  height: 50px;
+}
+
+.logo-div{
+  float: left;
+  width: 10%;
+  padding: 5px;
+  margin-left: 50px;
+}
+
+ul{
+  float: right;
+  width: 40%;
+}
+
+li{
+  float: left;
+  margin-right: 20px;
+  background: aqua;
+  padding: 7px;
+  border-radius: 50%;
+  list-style-type: none;
+  margin-bottom: 10px;
+}
+li:hover,.btn:hover{
+  font-family: 'Brush Script MT';
+  text-decoration: none;
+  font-size: 25px;
+  border: 2px solid white;
+}
+.login-btn:hover{
+  font-family: 'Brush Script MT';
+  font-size: 25px;
+}
+.main-section{
+  width: 30%;
+  text-align: center;
+  margin-left: 35%;
+  height: 580px;
+  border: 2px solid white;
+  margin-top: 15px;
+}
+.main-section img{
+  width: 50px;
+  height: 50px;
+}
+.signup-div{
+  height: 60px;
+  text-align: center;
+}
+.signup-img{
+  float: left;
+  margin: 10px 0 0 150px;
+}
+.signup-logo{
+  float: left;
+  margin-left: 10px;
+}
+h3{
+  width: 100%;
+  text-align: center;
+  float: left;
+}
+.file-upload{
+  margin-left: 45px;
+  width: 80%;
+}
+
+.signup-design-img{
+  width: 100%;
+}
+.signup-design input{
+  width: 80%;
+  margin-top: 10px;
+  padding: 7px;
+}
+.signup-design input:hover{
+  border: 2px solid rgb(85, 85, 231);
+}
+.push{
+  height: 60px;
+}
+
+.footer{
+  background-color: rgb(85, 85, 231);
+  width: 100%;
+  height: 60px;
+  margin-top: 35px;
+}
+
+.end-logo{
+  float: left;
+  margin-left: 50px;
+  margin-top: 5px;
+}
+.footer-paragraph{
+margin-left: 600px;
+}
+
+.social-media{
+  float: right;
+  margin-right: 50px;
+}
+
+.footer img{
+  float: left;
+  width: 50px;
+  height: 50px;
+}

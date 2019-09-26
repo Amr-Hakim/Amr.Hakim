@@ -1,0 +1,340 @@
+body{
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  font-size: 17px;  
+  box-sizing: border-box;
+}
+
+
+
+.main{
+  width: 100%;
+  height: 100%;
+  background: url("/Images/car-background8.jpg") no-repeat;
+  background-size: cover;
+}
+
+.header{
+  background-color: rgb(56, 56, 146);
+  height: 80px;
+  width: 100%;
+}
+.nav{
+width: 80%;
+}
+.logo{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.logo-div{
+  float: left;
+  width: 10%;
+  padding: 7px;
+  margin-left: 50px;
+  margin-top: 10px;
+}
+.search{
+  width: 30%;
+  float: left;
+  height: 50px;
+  margin-top: 20px;
+}
+.search-input{
+  width: 56%;
+  height: 70%;
+  background-color: white;
+  margin-left: 10%;
+  padding: 2px;
+  padding-left: 20px;
+  border: 2px solid rgb(36, 36, 146);
+}
+.search-btn{
+  height: 70%;
+  background-color: white;
+  padding: 0px 10px;
+  margin-left: 20px;
+  border: 2px solid rgb(36, 36, 146);
+  color: blue;
+}
+.nav-link{
+  margin-left: 14%;
+}
+
+ul{
+  float: right;
+  width: 40%;
+  height: 50px;
+  margin: 0;
+}
+
+li{
+  float: left;
+  list-style-type: none;
+  height: 100%;
+  background: rgb(36, 36, 146);
+  padding: 30px 0 0 0;
+  margin-right: 5px;
+}
+/* li:hover,.btn:hover,.search-btn:hover{
+  font-family: 'comic sans ms';
+  font-size: 25px;
+  border: 1px solid white;
+} */
+
+li.current,li:hover{
+  background-color: white;
+}
+a{
+  text-decoration: none;
+  color: rgb(1, 2, 20);
+  width: 100px;
+  padding: 10px;;
+}
+.current a{
+  color: blue;
+}
+a:hover{
+  color: blue;
+}
+
+
+/* start of main section part it will be tow parts: left 22 and right 78 */
+.main-section{
+  width: 100%;
+  height: 568px;
+  margin: 0;
+  margin-top: 10px;
+}
+
+.left-side{
+  width: 22%;
+  height: 100%;
+  float: left;
+  margin-left: 20px;
+  margin-top: 8px;
+}
+.left-side div{
+  margin-bottom: 10px;
+}
+.left-side h1{
+  font-family: 'comic sans ms';
+  color: blue;
+  float: left;
+}
+
+/* ************** Start Cars types *********** */
+
+.bmw{
+  background: rgb(1, 1, 34);
+  padding: 10px 10px 10px 20px;
+  width: 90%;
+  height: 50px;
+}
+.bmw-img{
+  width: 30px;
+  height: 30px;
+  float: right;
+  margin: 10px
+}
+.bmw h1{
+  margin: 0;
+}
+.aston{
+  width: 90%;
+  height: 50px;
+}
+.aston-img{
+  width: 30px;
+  height: 30px;
+  float: right;
+  margin: 10px
+}
+.aston h1{
+  margin: 0;
+}
+.audi{
+  width: 90%;
+  height: 50px;
+}
+.audi-img{
+  width: 30px;
+  height: 30px;
+  float: right;
+  margin: 10px;
+  background: white;
+  padding: 0 2px;
+}
+.audi h1{
+  margin: 0;
+}
+.bugatti{
+  width: 90%;
+  height: 50px;
+}
+.bugatti-img{
+  width: 30px;
+  height: 30px;
+  float: right;
+  margin: 10px;
+  background: white;
+  padding: 0 2px;
+}
+.bugatti h1{
+  margin: 0;
+}
+.mercedes{
+  width: 90%;
+  height: 50px;
+}
+.mercedes-img{
+  width: 30px;
+  height: 30px;
+  float: right;
+  margin: 10px;
+  background: white;
+  padding: 0 2px;
+}
+.mercedes h1{
+  margin: 0;
+}
+.Lamborghini{
+  width: 90%;
+  height: 50px;
+}
+.Lamborghini-img{
+  width: 30px;
+  height: 30px;
+  float: right;
+  margin: 10px;
+  background: white;
+  padding: 0 2px;
+}
+.Lamborghini h1{
+  margin: 0;
+}
+.Ford{
+  width: 90%;
+  height: 50px;
+}
+.Ford-img{
+  width: 30px;
+  height: 30px;
+  float: right;
+  margin: 10px;
+  background: white;
+  padding: 0 2px;
+}
+.Ford h1{
+  margin: 0;
+}
+.Porsche{
+  width: 90%;
+  height: 50px;
+}
+.Porsche-img{
+  width: 30px;
+  height: 30px;
+  float: right;
+  margin: 10px;
+  background: white;
+  padding: 0 2px;
+}
+.Porsche h1{
+  margin: 0;
+}
+.more-cars{
+  float: right;
+}
+.more-cars input{
+  padding: 5px 10px;
+  margin-top: 10px;
+  background: rgb(1, 1, 34);
+  border: 1px solid white;
+  color: blue;
+}
+
+/* ************** Start Cars types *********** */
+
+.right-side{
+  width: 75%;
+  height: 100%;
+  margin-left: 10px;
+  float: left;
+  overflow-wrap: inherit;
+}
+.item{
+  width: 20%;
+  background: white;
+  height: 270px;
+  margin: 8px;
+  border: 1px solid rgb(56, 56, 146);
+  float: left;
+  /* font-family: 'comic sans ms'; */
+}
+.item-img{
+  width: 100%;
+  height: 60%;
+  margin-bottom: 5px;
+  margin-top: 1px;
+}
+.item h4{
+  float: left;
+  color: rgb(56, 56, 146);
+  margin-left: 25px;
+}
+.item p{
+  float: right;
+  color: rgb(56, 56, 146);
+  margin-right: 30px;
+  margin-top: 22px;
+}
+.item input{
+  background-color: rgb(56, 56, 146);
+  color: white;
+  width: 90%;
+  height: 30px;
+  border: 1px solid rgb(56, 56, 146);
+  border-radius: 10px;
+  text-align: center;
+  margin-left: 5%;
+}
+
+ /* start of footer ***************** */
+
+.footer{
+  background-color: rgb(56, 56, 146);
+  width: 100%;
+  height: 60px;
+  margin-top: 35px;
+}
+
+.end-logo{
+  float: left;
+  margin-left: 50px;
+  margin-top: 5px;
+}
+.footer-paragraph{
+margin-left: 600px;
+color: white;
+}
+
+.social-media{
+  float: right;
+  margin-right: 50px;
+  margin-top: 15px;
+}
+
+.footer img{
+  float: left;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+.social-media img{
+  width: 30px;
+  height: 30px;
+}

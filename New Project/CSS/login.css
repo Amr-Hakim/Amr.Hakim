@@ -4,7 +4,6 @@ body{
   height: 100%;
   box-sizing: border-box;
   font-size: 17px;  
-  box-sizing: border-box;
 }
 
 
@@ -43,6 +42,7 @@ width: 80%;
 }
 
 ul{
+
   float: right;
   width: 40%;
   height: 50px;
@@ -182,8 +182,8 @@ form img{
   margin-top: 5px;
 }
 .footer-paragraph{
-margin-left: 600px;
-color: white;
+  margin-left: 600px;
+  color: white;
 }
 
 .social-media{
@@ -201,4 +201,14 @@ color: white;
 .social-media img{
   width: 30px;
   height: 30px;
+}
+@media only screen and (max-width:600px){
+  ul{
+    width: 100%;
+    margin: 0;
+  }  
+  li{
+    width: 100%;
+  }
+
 }

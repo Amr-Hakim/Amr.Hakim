@@ -1,0 +1,198 @@
+/* start of main section part it will be tow parts: left 22 and right 78 */
+.main-section{
+  width: 100%;
+  margin: 0;
+}
+
+.left-side{
+  width: 22%;
+  height: 100%;
+  float: left;
+  margin-left: 20px;
+  margin-top: 80px;
+}
+.left-side div{
+  margin-bottom: 10px;
+}
+.left-side h1{
+  color: blue;
+  float: left;
+}
+
+/* ************** Start Cars types *********** */
+
+.bmw{
+  background: rgb(1, 1, 34);
+  padding: 0 10px 10px 20px;
+  width: 90%;
+  height: 50px;
+}
+.bmw-img{
+  width: 30px;
+  height: 30px;
+  float: right;
+  margin: 10px
+}
+.bmw h1{
+  margin: 0;
+}
+.aston{
+  width: 90%;
+  height: 50px;
+}
+.aston-img{
+  width: 30px;
+  height: 30px;
+  float: right;
+  margin: 10px
+}
+.aston h1{
+  margin: 0;
+}
+.audi{
+  width: 90%;
+  height: 50px;
+}
+.audi-img{
+  width: 30px;
+  height: 30px;
+  float: right;
+  margin: 10px;
+  background: white;
+  padding: 0 2px;
+}
+.audi h1{
+  margin: 0;
+}
+.bugatti{
+  width: 90%;
+  height: 50px;
+}
+.bugatti-img{
+  width: 30px;
+  height: 30px;
+  float: right;
+  margin: 10px;
+  background: white;
+  padding: 0 2px;
+}
+.bugatti h1{
+  margin: 0;
+}
+.mercedes{
+  width: 90%;
+  height: 50px;
+}
+.mercedes-img{
+  width: 30px;
+  height: 30px;
+  float: right;
+  margin: 10px;
+  background: white;
+  padding: 0 2px;
+}
+.mercedes h1{
+  margin: 0;
+}
+.lamborghini{
+  width: 90%;
+  height: 50px;
+}
+.lamborghini-img{
+  width: 30px;
+  height: 30px;
+  float: right;
+  margin: 10px;
+  background: white;
+  padding: 0 2px;
+}
+.lamborghini h1{
+  margin: 0;
+}
+.ford{
+  width: 90%;
+  height: 50px;
+}
+.ford-img{
+  width: 30px;
+  height: 30px;
+  float: right;
+  margin: 10px;
+  background: white;
+  padding: 0 2px;
+}
+.ford h1{
+  margin: 0;
+}
+.porsche{
+  width: 90%;
+  height: 50px;
+}
+.porsche-img{
+  width: 30px;
+  height: 30px;
+  float: right;
+  margin: 10px;
+  background: white;
+  padding: 0 2px;
+}
+.porsche h1{
+  margin: 0;
+}
+.more-cars{
+  float: right;
+}
+.more-cars input{
+  padding: 5px 10px;
+  margin-top: 10px;
+  background: rgb(1, 1, 34);
+  border: 1px solid white;
+  color: blue;
+}
+
+/* ************** Start Cars types *********** */
+
+.right-side{
+  width: 75%;
+  height: 100%;
+  margin-left: 10px;
+  margin-top: 70px;
+  float: left;
+  overflow-wrap: inherit;
+}
+.item{
+  width: 30%;
+  background: white;
+  height: 320px;
+  margin: 8px;
+  border: 1px solid rgb(56, 56, 146);
+  float: left;
+  /* font-family: 'comic sans ms'; */
+}
+.item-img{
+  width: 100%;
+  height: 60%;
+  margin-bottom: 5px;
+  margin-top: 1px;
+}
+.item h4{
+  float: left;
+  color: rgb(56, 56, 146);
+  margin-left: 10px;
+}
+.item p{
+  float: right;
+  color: rgb(56, 56, 146);
+  margin-right: 20px;
+  margin-top: 22px;
+}
+.item input{
+  background-color: rgb(56, 56, 146);
+  color: white;
+  width: 90%;
+  height: 30px;
+  border: 1px solid rgb(56, 56, 146);
+  border-radius: 10px;
+  text-align: center;
+  margin-left: 5%;
+}

@@ -1,0 +1,166 @@
+ /* ***********  Start of input Section ******* */
+ 
+ .input40{
+   width: 40px;
+   height: 30px;
+  }
+
+  .input80{
+    width: 80px;
+    height: 40px;
+  }
+
+  .input120{
+    width: 120px;
+    height: 50px;
+  }
+
+  .border-blue{
+    border: 1px solid blue;
+  }
+  .border-red{
+    border: 1px solid red;
+  }
+
+  .border-r10{
+    border-radius: 10px;
+  }
+  .border-r20{
+    border-radius: 20px;
+  }
+  .border-r50{
+    border-radius: 50px;
+  }
+
+
+  /* *********** End of input Section ******* */
+
+  /* *************** start of Background section ************* */
+  .bgd-dark{
+    background-color: black;
+  }
+  .bgd-blue{
+    background-color: blue;
+  }
+  .bgd-red{
+    background-color: red;
+  }
+  .bgd-white{
+    background-color: #ffffff;
+  }
+  .bgd-grey{
+    background-color: lightgrey;
+  }
+  /* *************** start of Background section ************* */
+
+  /* **** Start of text color ******* */
+.txt-white{
+  color: white;
+}
+.txt-blue{
+  color: blue;
+}
+.txt-red{
+  color: red;
+}
+.txt-grey{
+  color: darkgrey;
+}
+
+  /* **** End of text color ******* */
+  /* **** start of text size ******* */
+.tx15{
+  font-size: 15px;
+}
+.tx18{
+  font-size: 18px;
+}
+.tx22{
+  font-size: 22px;
+}
+
+  /* **** End of text size ******* */
+
+  /* ******* start of Margin ******** */
+  .mg10{
+    margin: 10px;
+  }
+  .mg20{
+    margin: 20px;
+  }
+  .mg30{
+    margin: 30px;
+  }
+  .mg40{
+    margin: 40px;
+  }
+  .mgpl10{
+    margin-left: 10%;
+  }
+  .mgpr10{
+    margin-right: 10%;
+  }
+  .mgpl20{
+    margin-left: 20%;
+  }
+  .mgpr20{
+    margin-right: 20%;
+  }
+  .mgpl30{
+    margin-left: 30%;
+  }
+  .mgpr30{
+    margin-right: 30%;
+  }
+ 
+  /* ******* end of Margin ******** */
+  /* ******* start of padding ******** */
+.pd10{
+  padding: 10px;
+}
+.pd20{
+  padding: 20px;
+}
+.pd30{
+  padding: 30px;
+}
+
+  /* ******* end of padding ******** */
+  /* ******* start of btn ******** */
+.btn{
+  width: 100px;
+  height: 40px;
+  border-radius: 10px;
+  border: 1px solid blue;
+  padding: 5px;
+  margin: 10px;
+}
+
+
+  /* ******* end of btn ******** */
+
+
+  /* *********** Start of the file **** */
+
+  body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100%;
+  }
+
+.container{
+  width: 40%;
+  margin-top: 10%;
+  text-align: center;
+}
+input{
+  width: 90%;
+  margin-bottom: 20px;
+}
+
+button{
+ width: 96%
+}
+
+
